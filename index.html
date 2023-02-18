@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        ol,
+        ul {
+            margin: 0;
+            padding: 0;
+            font-weight: normal;
+        }
+
+        ol,
+        ul {
+            list-style: none;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <section class="Content">
+        <section class="Register">
+            <div class="titleRegister">
+                <span>Cadastro de Lojas</span>
+            </div>
+            <div class="form">
+                <form class="formulario" id="forms">
+
+                    <div class="cadastro">
+                        <label class="firtsLabels" for="cadastroNome">Nome:</label>
+                        <input class="nomeCadastro" id="cadastroNome" type="text" name="nome" placeholder="Ex: C&A" />
+                    </div>
+
+                    <div class="cadastro">
+                        <label class="firtsLabels" for="cadastroEndereco">Endereço:</label>
+                        <input class="enderecoCadastro" type="text" name="endereco" id="cadastroEndereco"
+                            placeholder="Ex: Rua Fontoura Xavier 1532" />
+                    </div>
+
+                    <div class="cadastro">
+                        <label class="labelTime" for="openingTime">Horário de Abertura:</label>
+                        <input class="time" type="time" id="openingTime" value="horarioAbertura">
+                    </div>
+
+                    <div class="cadastro">
+                        <label class="labelTime" for="closingTime">Horário de Fechamento:</label>
+                        <input class="time" type="time" id="closingTime" value="horarioFechamento">
+                    </div>
+
+                    <div class="titleRegister2" class="space">
+                        <span>Dias de Funcionamento</span>
+                    </div>
+
+                    <div class="check">
+                        <label class="label" for="cadastroCheckbox1">Domingo</label>
+                        <input class="inputCheck" type="checkbox" id="cadastroCheckbox1" name="Domingo">
+                    </div>
+
+                    <div class="check">
+                        <label class="label" for="cadastroCheckbox2">Segunda</label>
+                        <input class="inputCheck" type="checkbox" id="cadastroCheckbox2" name="Segunda">
+                    </div>
+
+                    <div class="check">
+                        <label class="label" for="cadastroCheckbox3">Terça</label>
+                        <input class="inputCheck" type="checkbox" id="cadastroCheckbox3" name="Terça">
+                    </div>
+
+                    <div class="check">
+                        <label class="label" for="cadastroCheckbox4">Quarta</label>
+                        <input class="inputCheck" type="checkbox" id="cadastroCheckbox4" name="Quarta">
+                    </div>
+
+                    <div class="check">
+                        <label class="label" for="cadastroCheckbox5">Quinta</label>
+                        <input class="inputCheck" type="checkbox" id="cadastroCheckbox5" name="Quinta">
+                    </div>
+
+                    <div class="check">
+                        <label class="label" for="cadastroCheckbox6">Sexta</label>
+                        <input class="inputCheck" type="checkbox" id="cadastroCheckbox6" name="Sexta">
+                    </div>
+
+                    <div class="check">
+                        <label class="label" for="cadastroCheckbox7">Sábado</label>
+                        <input class="inputCheck" type="checkbox" id="cadastroCheckbox7" name="Sábado">
+                    </div>
+
+                    <section class="separar"></section>
+
+                    <section class="botões">
+                        <div class="botao">
+                            <button class="button1" type="button" id="bottom" name="botaofinal">Sentido
+                                Vertical</button>
+                        </div>
+
+                        <div class="botao">
+                            <button class="button2" type="button" id="bottom" name="botaofinal">Display Grid</button>
+                        </div>
+                    </section>
+
+                </form>
+            </div>
+        </section>
+    </section>
+    <script src="./index.js"></script>
+</body>
+
+</html>
