@@ -1,0 +1,131 @@
+.HeaderSection {
+    display: flex;
+    flex-flow: row wrap;
+    height: 14vh;
+    background-color: rgb(230, 230, 22);
+    width: 100vw;
+}
+
+.HeaderPart {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    width: 100vw;
+}
+
+#SearchBar {
+    height: 3.5vh;
+    width: 25vw;
+    margin-top: 1.8vh;
+    margin-bottom: 1.8vh;
+}
+
+.NavBar {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    border-style: solid;
+    line-height: 6vh;
+    width: 100vw;
+}
+
+.NavOptions {
+    vertical-align: middle;
+    line-height: normal;
+    margin-left: 2vw;
+    font-size: 2vh;
+    font-family: 'Franklin Gothic Medium'
+}
+
+.NavOptions:hover {
+    transition-duration: 0.7s;
+    font-size: 2.5vh;
+    padding: 0.8%;
+    background-color: rgb(22, 78, 199);
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 86vh;
+    background-color: rgb(177, 178, 179);
+}
+
+
+
+
+
+.Register {
+    display: grid;
+    height: 50vh;
+    width: 22vw;
+    margin-top: 10vh;
+    border-radius: 0.5vw;
+    background-color: rgb(230, 230, 22);
+    border-left: solid rgb(22, 78, 199) 0.4vw;
+    padding-right: 0.4vw;
+}
+
+.formulario {
+    display: grid;
+    grid-template-columns: 22vw;
+    grid-template-rows: 8.33vh 8.33vh 8.33vh 8.33vh 8.33vh 8.33vh;
+    justify-content: center;
+    align-content: center;
+}
+
+.cadastro {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height: 8.3vh;
+    width: 22vw;
+    font-size: 2.6vh;
+}
+
+#cadastroNome {
+    width: 15vw;
+    height: 3vh;
+    margin-top: 0.3vh;
+}
+
+#cadastroEmail {
+    width: 15vw;
+    height: 3vh;
+    margin-top: 0.3vh;
+}
+
+#cadastroSenha {
+    width: 15vw;
+    height: 3vh;
+    margin-top: 0.3vh;
+}
+
+#cadastroRepetirSenha {
+    width: 15vw;
+    height: 3vh;
+    margin-top: 0.3vh;
+}
+
+#cadastroSexo {
+    width: 15vw;
+    height: 3vh;
+    margin-top: 0.3vh;
+}
+
+#bottom {
+    height: 4vh;
+    width: 15vw;
+    font-size:3vh;
+    font-family:'Gill Sans MT';
+    border-radius: 2vh;
+    color: white;
+    background-color: rgb(22, 78, 199);
+}
